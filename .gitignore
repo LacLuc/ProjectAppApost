@@ -1,0 +1,42 @@
+
+# Ignore all .txt files
+*.txt
+
+# Ignore all .exe files
+*.exe
+
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp   
+
+# Ignore all .bak files
+*.bak
+
+# Ignore all .zip files
+*.zip
+
+# Ignore all .tar files
+*.venv
+*.egg-info
+*.egg
+*.whl
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.lzma
+*.tar.lz
+*.tar.zst
+*.tar.lzo
+*.tar.lzop
+*.tar.lz4
+
+
+echo ".venv/" >> .gitignore
+echo "*.exe" >> .gitignore
+echo "*.xlsx" >> .gitignore
+echo "*.csv" >> .gitignore
+
+
+
