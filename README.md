@@ -222,3 +222,11 @@ git commit -m "UmNome"
 git push --set-upstream origin app-main
 git push 
 git remote remove origin
+
+git remote add origin git@github.com:LacLuc/ProjectAppApost.git
+git branch -M main
+git push -u origin main
+
+SHA256:ge3HQPBkPHIr6X1e15Cp74eBwsAAGKLso/nJOoQNCwk
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
