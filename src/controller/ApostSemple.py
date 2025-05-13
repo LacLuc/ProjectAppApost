@@ -1,4 +1,4 @@
-#import SaveFile as dbb
+import src.services.SaveFile as dbb
 import src.services.NewID as NewID
 import random as rd
 from time import sleep
@@ -32,8 +32,7 @@ def newApost(nu, max, mod):
     print('-='*5,f' SORTEANDO {quant} JOGOS ', '=-'*5)   
     for i, l in enumerate(jogos):        
         print(f'Jogo {i+1} - {ID}: {l}')      
-        '''TODO:'''
-            #dbb.SaveFile.SalvarDadosFilas(ID, l)
+        dbb.SaveFile.SalvarDadosFilas(ID, l)
         sleep(2)  
     print('-='*5, '< BOA SORTE!>', '=-'*5)
 
